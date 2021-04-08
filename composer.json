@@ -1,0 +1,29 @@
+{
+    "name": "leandrogrando/monitor",
+    "description": "A project to generete and collect VPS data",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leandrogrando",
+            "email": "leandro-grando@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "leandrogrando/monitor-framework": "^0.0.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://builderall.repo.repman.io"
+        }
+    ],
+    "scripts": {
+        "post-update-cmd": [
+            "cp vendor/leandrogrando/monitor-framework/monitor .",
+            "cp vendor/leandrogrando/monitor-framework/index.php .",
+            "@php monitor migrate"
+        ]
+    }
+}
