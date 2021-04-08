@@ -9,7 +9,7 @@
             "email": "leandro-grando@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "leandrogrando/monitor-framework": "^0.0.2"
     },
