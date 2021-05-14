@@ -9,7 +9,7 @@ A project to generete and collect VPS data
 ## How to install
 
 ```
-composer require leandrogrando/monitor
+composer create-project leandrogrando/monitor
 ```
 You will be asked for a token and password.
 
@@ -21,3 +21,10 @@ You will be asked for a token and password.
 
 ## Publishing the data
 Set up a virtual host point to monitor root
+
+## Reset the database
+
+Run
+```
+php monitor migrate
+```
