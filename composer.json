@@ -10,9 +10,6 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "leandrogrando/monitor-framework": "*"
-    },
     "repositories": [
         {
             "type": "composer",
@@ -25,5 +22,8 @@
             "cp vendor/leandrogrando/monitor-framework/index.php .",
             "@php monitor migrate"
         ]
+    },
+    "require": {
+        "leandrogrando/monitor-framework": "^0.0.7"
     }
 }
