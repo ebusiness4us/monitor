@@ -24,6 +24,6 @@
         ]
     },
     "require": {
-        "leandrogrando/monitor-framework": "^0.0.7"
+        "leandrogrando/monitor-framework": "*"
     }
 }
