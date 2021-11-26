@@ -20,6 +20,7 @@
         "post-update-cmd": [
             "cp vendor/leandrogrando/monitor-framework/monitor .",
             "cp vendor/leandrogrando/monitor-framework/index.php .",
+            "cp vendor/leandrogrando/monitor-framework/backup.php .",
             "@php monitor migrate"
         ]
     },
